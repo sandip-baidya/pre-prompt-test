@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Franchise Assistant - CustomGPT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background-color: #2a3f54;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    #customgpt_chat {
+      width: 100%;
+      max-width: 600px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Your Franchise Assistant</h1>
+  </header>
+
+  <main>
+    <div id="customgpt_chat"></div>
+  </main>
+
+  <script 
+    src="https://cdn.customgpt.ai/js/embed.js" 
+    defer
+    div_id="customgpt_chat"
+    p_id="62292"
+    p_key="dd6e3ceb13ff40dfefbe23c51daad81e"
+    pre_prompt="Hello. My Franchise is based in Canada">
+  </script>
+</body>
+</html>
